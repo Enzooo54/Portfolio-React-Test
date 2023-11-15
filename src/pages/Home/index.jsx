@@ -3,7 +3,7 @@ import './Home.css';
 function App() {
     return (
         <div>
-            <p>Enzo Sontot</p>
+            <h2 className='enzo'>Enzo Sontot</h2>
             <h1>Design simple et épuré</h1>
             <svg className='etoile' xmlns="http://www.w3.org/2000/svg" width="189" height="189" viewBox="0 0 189 189" fill="none">
             <path d="M83.5717 139.657L51.3552 178.163L63.287 129.382L16.8788 148.495L50.0972 110.851L0.128884 106.192L47.0238 88.3081L4.9425 60.9446L54.7709 66.9181L30.217 23.1185L71.5638 51.5812L70.1622 1.37943L93.5554 45.8107L115.627 0.707458L115.708 50.9287L156.197 21.2565L132.946 65.7627L182.576 58.3191L141.321 86.9144L188.723 103.405L138.914 109.538L173.229 146.185L126.277 128.451L139.643 176.858L106.304 139.321L95.6598 188.399L83.5717 139.657Z" fill="#B550F8"/>
@@ -17,6 +17,8 @@ function App() {
                 </svg>
                 <div className='barre'></div>
             </div>
+            <p className='desc'>À 20 ans, je débute dans le développement web, explorant HTML, CSS et JavaScript avec passion. Chaque ligne de code est une étape vers ma croissance et ma future expertise.</p>
+            <button>Voir mes projets</button>
             
         </div>
     );
