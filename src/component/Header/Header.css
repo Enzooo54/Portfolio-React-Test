@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #28293E;;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+ul {
+    display: flex;
+    list-style: none;
+}
+li {
+    margin: 0 2rem;
+    text-transform: uppercase;
+}
+
+li.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+li.contact {
+    padding: 0.5rem 1.5rem;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 0.30);
+}
+
+img {
+    width: 4rem;
+    height: 4rem;
+}
+
+li.enzo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -2rem;
+}
