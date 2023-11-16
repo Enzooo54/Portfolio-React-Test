@@ -11,7 +11,7 @@ function Header() {
             </ul>
             <ul>
                 <li><a href="/a-propos">à propos</a></li>
-                <li><a href="/service">Services</a></li>
+                <li><a href="/services">Services</a></li>
                 <li><a href="/prix">Prix</a></li>
                 <li><a href="/soon">Blog</a></li>
             </ul>

@@ -1,6 +1,6 @@
 import './Home.css';
 
-function App() {
+function Home() {
     return (
         <div>
             <h2 className='enzo'>Enzo Sontot</h2>
@@ -24,4 +24,4 @@ function App() {
     );
 }
 
-export default App;
+export default Home;
